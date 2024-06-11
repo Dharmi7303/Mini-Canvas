@@ -29,7 +29,7 @@ public static String getFileExtension(String filename)
                 // s=new Socket("local host",5000);
                 // ss=new Socket();
                 cs=ss.accept();
-                System.out.println("Connected");
+                System.out.println(" Connected ");
                 while(true)
                 {
                 DataInputStream dis = new DataInputStream(cs.getInputStream());
